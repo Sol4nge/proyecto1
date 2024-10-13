@@ -45,6 +45,34 @@ li{ font-family: "Bellota", system-ui;
     width: 50px;
     height: auto;}
 
+.subtitulo{
+    font-size: 40px; 
+    background-color: #ffffff;
+    color: #ec447c;
+    text-decoration: none;
+    font-family: "Bellota", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+letter-spacing: 3px;}
+
+.whatsapp{
+    position: fixed; bottom: 10px; right: 20px ;
+    width: 70px;
+    height: auto;
+}
+
+.receta{
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: #ec447c;
+    background: #ffffff;
+    text-align: center;
+
+}
+
 
   
   
