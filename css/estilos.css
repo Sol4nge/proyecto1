@@ -63,8 +63,7 @@ li{ font-family: "Bellota", system-ui;
     padding: 0px 30px 0px 30px;
     text-align: center;}
 .receta:link{
-    text-decoration: none;
-}
+    text-decoration: none;}
 .receta:hover{
     transform: scale(1.15);
     background-color: #fa8cbf;
@@ -94,6 +93,10 @@ footer{
     display: flex;
     justify-content: space-between;
     border: 8px solid #ec447c;}
+.caja-footer3{
+    font-size: 4vh
+}
+    
 
 .otras-recetas{
     display: flex;
