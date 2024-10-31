@@ -21,6 +21,7 @@ h1{ font-size: 4vw;
 
 h2{  font-size: 3vw; 
     background-color: #ffffff;
+    border-radius: 16px 16px 0px 0px;
     color: rgb(236, 68, 124);
     text-decoration: none;
     font-family: "Bellota", system-ui;
@@ -29,24 +30,33 @@ h2{  font-size: 3vw;
     text-align: center;
     letter-spacing: 3px;}
 
-img{ width: 30vw;
-     display: block; }
+img{ width: 18vw;
+     display: block;
+     margin: auto;
+}
 
 iframe{
     display: block;
     margin: auto;
-    width: 30vw;}
+    border-radius: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    }
 
-li{ font-family: "Bellota", system-ui;
+li{  font-family: "Bellota", system-ui;
     font-weight: 400;
     font-style: normal;
     background-color: #ec447c;
     text-align: center; 
-    font-size: 4vh;}
+    font-size: 2vw;}
 
  .logos{
     width: 5vw;
     height: auto;}
+.logos:hover{
+    transform: scale(1.10);
+    transition: 0.2s;
+}
 
 .whatsapp{
     position: fixed; bottom: 10px; right: 20px ;
@@ -58,16 +68,18 @@ li{ font-family: "Bellota", system-ui;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 200;
     letter-spacing: 1px;
-    color: #ec447c;
+    color: rgb(236, 68, 124);
     background: #ffffff;
-    padding: 0px 30px 0px 30px;
+    border-radius: 30px;
+    padding: 0px 8px 0px 8px;
     text-align: center;}
 .receta:link{
     text-decoration: none;}
 .receta:hover{
     transform: scale(1.15);
-    background-color: #fa8cbf;
-    color: #ffffff;}
+    background-color: #ce396b;
+    color: #ffffff;
+    transition: 0.2s;}
 .receta:active{
     transform: scale(0.95);}
 
@@ -77,26 +89,7 @@ p{
     font-weight: 200;
     color: #ec447c;
     background: #ffffff;
-    text-align: center;}
-
-footer{
-    background-color: #ec447c95;
-    border: 4px solid #ec447c;
-    border-radius: 30px;
-    text-align: left;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;}
-  
-.caja-footer2{
-    display: flex;
-    justify-content: space-between;
-    border: 8px solid #ec447c;}
-.caja-footer3{
-    font-size: 4vh
-}
-    
+    text-align: center;}  
 
 .otras-recetas{
     display: flex;
@@ -125,29 +118,62 @@ header{
 .header-box3 {
     display: flex;
     flex-wrap: wrap;
-    border: 10px solid #ec447c;
+    border: 1vw solid #ec447c;
     ;}
 
 nav{background-color: #ec447c;
-    border-radius: 30px;
-    padding: 10px 0px 20px 0px;
+    border-radius: 24px;
+    padding: 0px 0px 20px 0px;
     margin: 30px;}
 
 section{
     background-color: #ec447c95;
     border: 4px solid #ec447c;
-    border-radius: 30px;}
+    border-radius: 20px;
+    width: 70%;
+    float: left;
+    margin-left: 2vw;
+    margin-bottom: 2vw;}
 
 aside{
+    background-color: #ec447c95;
+    border: 4px solid #ec447c;
+    border-radius: 20px;
+    height: auto;
+    width: 25%;
+    float: left;
+    margin-left: 10px;}
+
+.sorrentinos{
+    width: 18vw;
+     display: block;
+     margin: auto;
+     border-radius: 25px;
+     padding-top: 10px;
+}
+
+footer{
+    clear: both;
+    background-color: #ec447c95;
+    border: 4px solid #ec447c;
+    border-radius: 20px;
+    margin: 20px;
     display: flex;
-    flex-wrap: nowrap;
-    margin: 5% 2%;}
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.caja-footer2{
+    display: flex;
+    justify-content: space-between;
+    border: 8px solid #ec447c;}
 
 .contactos{
     background-color: #ec447c;
     border-radius: 30px;
     padding: 10px 30px 20px 0px;
-    margin: 30px;
+    margin: 20px;
     font-size: 2.1vw;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 200;
@@ -159,30 +185,8 @@ aside{
     .contactos:link{
         text-decoration: none;}
     .contactos:hover{
-        transform: scale(1.50);
         background-color: #ec447c;
-        color: #ffffff;}
+        color: #ffffff;
+        transition: 0.2s;}
     .contactos:active{
-        transform: scale(0.95);}
-
-.home {
-    background-color: #ec447c;
-    border-radius: 30px;
-    padding: 10px 30px 20px 0px;
-    margin: 30px;
-    font-size: 2.1vw;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 200;
-    letter-spacing: 1px;
-    color: #ec447c;
-    background: #ffffff;
-    padding: 0px 30px 0px 30px;
-    text-align: center;}
-    .home:link{
-        text-decoration: none;}
-    .home:hover{
-        transform: scale(1.50);
-        background-color: #ec447c;
-        color: #ffffff;}
-    .home:active{
         transform: scale(0.95);}
